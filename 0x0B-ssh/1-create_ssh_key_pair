@@ -1,0 +1,3 @@
+#!/usr/bin/bash env
+#creates ssh keys with name school and passphrase betty with byte of 4096
+ssh-keygen -t rsa -N betty -f school -b 4096
