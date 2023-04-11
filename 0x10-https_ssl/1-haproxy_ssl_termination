@@ -41,7 +41,7 @@ frontend ninaspio.tech-http-frontend
         default_backend nginx_webservers
 
 frontend ninaspio.tech-https-frontend
-        bind *:443 ssl crt /etc/letsencrypt/live/www.mda-dev.tech/combined.pem alpn h2,http/1.1
+        bind *:443 ssl crt /etc/letsencrypt/live/www.ninaspio.tech/combined.pem alpn h2,http/1.1
         option forwardfor
         default_backend nginx_webservers
 
