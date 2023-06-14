@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script to kill gunicorn
+sudo pkill -HUP gunicorn
